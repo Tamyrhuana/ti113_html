@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento para banho e tosa</title>
+</head>
+
+<body>
+    <p>
+    <h1>Agendamento para banho e tosa</h1>
+    </p>
+    <h4>Faça o seu agendamento com pelo menos 48 horas de antecedência</h4>
+
+    <fieldset>
+        <legend>
+            Dados Pessoais
+        </legend>
+
+        <label for="txt_nome">Nome:</label>
+        <input size="50px" placeholder="Digite o nome completo do dono do animal" required type="text" name="txt_nome"
+            id="txt_nome"> <br>
+        <br>
+        <label for="txt_endereco">Endereço:</label>
+        <input size="70px" placeholder="Digite o endereço" required type="text" name="txt_nome" id="txt_endereco"> <br>
+        <br>
+        <label for="txt_cep">CEP:</label>
+        <input size="30px" placeholder="XXXXX-XXX" required type="text" name="txt_cep" id="txt_cep"> <br>
+        <br>
+        <label for="txt_email">Email:</label>
+        <input size="60px" placeholder="Digite o endereço de email" required type="text" name="txt_email"
+            id="txt_email"> <br>
+        <br>
+        <label for="txt_tel/_cel">Tel/Cel:</label>
+        <input size="20px" placeholder="XX XXXXX-XXXX" required type="text" name="txt_tel/_cel" id="txt_tel/_cel"> <br>
+        <br>
+    </fieldset>
+
+    <fieldset>
+        <legend>
+            Animal
+        </legend>
+
+        <label for="txt_nome">Nome:</label>
+        <input size="25px" placeholder="Digite o nome do animal" required type="text" name="txt_nome" id="txt_nome"> <br>
+<br>
+        <label for="txt_porte_do_cao">Porte do cão:</label>
+
+        <label for="rdb_pequeno">pequeno</label>
+        <input required type="radio" name="rdb_pequeno" id="rdb_pequeno">
+
+        <label for="rdb_medio">médio</label>
+        <input required type="radio" name="rdb_medio" id="rdb_medio">
+
+        <label for="rdb_grande">Outro</label>
+        <input required type="radio" name="rdb_grande" id="rdb_grande"><br>
+
+        <label for="slt_tipo_de_tosa">Tipos de tosa:</label> <br>
+        <select name="slt_tipo_de_tosa" id="slt_tipo_de_tosa">
+            <option value="Nenhuma">Nenhuma</option>
+            <option value="Tosa na tesoura">Tosa na tesoura</option>
+            <option value="Tosa na máquina">Tosa na máquina</option>
+            <option value="Tosa na higiênica">Tosa na higiênica</option>
+
+    </fieldset>
+</body>
+
+</html>
