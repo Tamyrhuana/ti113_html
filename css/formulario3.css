@@ -1,0 +1,55 @@
+form {
+    background-color: grey;
+    width: 30%;
+    margin: 250px auto;
+    padding: 2%;
+}
+table{
+    width: 90%;
+}
+
+input {
+    width: 90%;
+    padding: 10px 5px;
+    border-width: 0;
+    border-radius: 4px;
+    background-color: #3b3a50;
+}
+
+input::placeholder {
+    background-color: #3b3a50;
+}
+textarea ::placeholder {
+    background-color: #3b3a50;
+}
+
+textarea {
+    width: 92%;
+    background-color: #3b3a50;
+    border-radius: 4px;
+    height: 60px;
+}
+
+button {
+    margin-right: 4%;
+    height: 30px;
+    background-color: #3b3a50;
+    color: white;
+    border-width: 0;
+    border-radius: 4px;
+}
+
+
+h1 {
+    color: rgb(59, 58, 80);
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.mensagem {
+    vertical-align: top;
+}
+
+body {
+    background-color: rgb(59, 58, 80);
+}
